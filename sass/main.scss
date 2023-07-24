@@ -1,0 +1,37 @@
+// Include bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+.custom-p {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.h1 {
+  font-weight: bold;
+  color:#000000;
+  margin-bottom: 20px;
+}
+
+.h5 {
+  font-weight: bold;
+  font-size: 16px;
+  color:#000000;
+}
+
+.btn-outline-secondary:hover {
+    background-color:#000000 ;
+  /* OR --bs-btn-hover-bg: #000000;  */
+  --bs-btn-border-color: #000000;
+}
+
+.btn-outline-secondary {
+  color:#000000;
+  font-weight: 500;
+  padding: 8px 30px;
+  margin-top: 15px;
+  border-color: #000000; 
+  border: 2px solid #000000;
+}
